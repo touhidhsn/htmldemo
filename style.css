@@ -1,0 +1,63 @@
+body {
+    font-family: Inter;
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 600;
+}
+h4 {
+    font-weight: 500;
+}
+
+.row-1-header {
+    display: flex;
+}
+
+.row-1-body {
+    width: 66%;
+}
+
+.why-vivasoft-row-2 {
+    display: block;
+}
+
+.top-boxes {
+    display: flex;
+}
+
+.bottom-boxes {
+    display: flex;
+}
+
+.works-top-left {
+    display: flex;
+}
+
+
+.works-top-right {
+    float: right;
+}
+
+.work-portfolio-top {
+    display: flex;
+}
+
+.work-portfolio-bottom {
+    display: flex;
+}
+
+.porfolio-box-1 {
+    width: 58.8%;
+}
+
+.porfolio-box-2 {
+    width: 38.2%;
+}
+.porfolio-box-3 {
+    width: 38.2%;
+}
+.porfolio-box-4 {
+    width: 58.8%;
+}
