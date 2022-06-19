@@ -2,13 +2,32 @@ body {
     font-family: Inter;
     width: 80%;
     margin: auto;
+    /* line-height: 1.7em; */
+
 }
 
 h2 {
     font-weight: 600;
+    font-size: xx-large;
+    color: #25356d;
+    line-height: 40px;
+    margin: 0px;
 }
 h4 {
     font-weight: 500;
+}
+
+
+span {
+    color: #666C9D;
+    text-transform: uppercase;
+    border: 1px solid rgb(102, 108, 157);
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-weight: 600px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 14px;
 }
 
 .row-1-header {
@@ -48,8 +67,32 @@ h4 {
     display: flex;
 }
 
+.box-content-text {
+    color : rgba(0,21,106,0.5); 
+    font-size: larger;
+    margin: 0px;
+}
+
 .porfolio-box-1 {
     width: 58.8%;
+    background-image: url(./img/workes-01-1.png);
+    background-position: bottom right;
+    background-color: #f6f6f6;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 42px;
+    padding-bottom: 42px;    
+}
+
+.porfolio-box-1:hover {
+           opacity:1;
+        transition: 0.5s;
+}
+
+.portfolio-box-content {
+    width: 70%;
+    padding: 52px 44px 52px 44px;
 }
 
 .porfolio-box-2 {
