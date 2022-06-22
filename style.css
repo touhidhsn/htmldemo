@@ -1,9 +1,8 @@
 body {
     font-family: Inter;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    /* line-height: 1.7em; */
-
+    line-height: 1.7em;
 }
 
 h2 {
@@ -14,7 +13,9 @@ h2 {
     margin: 0px;
 }
 h4 {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 26px;
+    color: #25356d;
 }
 
 
@@ -38,8 +39,119 @@ span {
     width: 66%;
 }
 
+.why-vivasoft {
+    background-color: #f9f9f9;
+}
+
+.why-vivasoft-row-1 {
+    width: 80%;
+    margin: auto;
+}
+
+.box-texts {
+    color: rgba(37,53,109,0.5);
+    font-size: 18px;
+}
+
+.box-1 {
+    text-align: center;
+    background-color: white;
+    width: 31.333%;
+    margin-right: 3%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+.box-1-img {
+    padding-top: 44px;
+}
+
+.box-1-content {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
+
+.box-1:hover {
+    box-shadow: 0px 12px 36px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box-2 {
+    text-align: center;
+    background-color: white;
+    width: 31.333%;
+    margin-right: 3%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+.box-2-content {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
+
+.box-2-img {
+    padding-top: 44px;
+}
+
+.box-2:hover{
+    box-shadow: 0px 12px 36px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box-3 {
+    text-align: center;
+    background-color: white;
+    width: 31.333%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+.box-3-content {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
+
+.box-3-img {
+    padding-top: 44px;
+}
+
+.box-3:hover {
+    box-shadow: 0px 12px 36px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box-4 {
+    text-align: center;
+    background-color: white;
+    width: 31.333%;
+    margin-right: 3%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+.box-4-content {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
+
+.box-4-img {
+    padding-top: 44px;
+}
+
+.box-4:hover {
+    box-shadow: 0px 12px, 36px 0px rgba(0, 0, 0, 0.06);
+}
+
+.works{
+    width: 80%;
+    margin: auto;
+}
 .why-vivasoft-row-2 {
     display: block;
+    width: 80%;
+    margin: auto;
 }
 
 .top-boxes {
@@ -76,7 +188,7 @@ span {
 .porfolio-box-1 {
     width: 58.8%;
     background-image: url(./img/workes-01-1.png);
-    background-position: bottom right;
+    background-position: center right;
     background-color: #f6f6f6;
     background-size: 350px;
     background-repeat: no-repeat;
@@ -86,7 +198,7 @@ span {
 }
 
 .porfolio-box-1:hover {
-           opacity:1;
+        background-size: 60%;
         transition: 0.5s;
 }
 
