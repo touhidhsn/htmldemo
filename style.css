@@ -28,8 +28,22 @@ span {
     font-weight: 600px;
     margin-top: 4px;
     margin-bottom: 8px;
+    margin-right: 3px;
     font-size: 14px;
 }
+
+
+button {
+    text-transform: uppercase;
+    background: #4a42ea;
+    padding: 14px 32px 14px 32px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    border-color: #4a42ea;
+    line-height: 1.7em;
+}
+
 
 .row-1-header {
     display: flex;
@@ -37,15 +51,36 @@ span {
 
 .row-1-body {
     width: 66%;
+    margin-bottom: 50px;
 }
 
 .why-vivasoft {
     background-color: #f9f9f9;
+    padding-bottom: 70px;
+}
+
+.why-vivasoft-heading{
+    font-size: 42px;
+    line-height: 60px;
+}
+
+.why-vivasoft-heading-2{
+    width: 50%;
+    font-size: 42px;
+    line-height: 60px;
+}
+
+.content-heading {
+    color: #666c9d;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .why-vivasoft-row-1 {
     width: 80%;
     margin: auto;
+    padding-bottom: 40px;
 }
 
 .box-texts {
@@ -141,48 +176,93 @@ span {
 }
 
 .box-4:hover {
-    box-shadow: 0px 12px, 36px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 12px 36px 0px rgba(0,0,0,0.06);
+}
+
+.box-5 {
+    text-align: center;
+    background-color: white;
+    width: 31.333%;
+    margin-right: 3%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+.box-5-img {
+    padding-top: 44px;
+}
+
+.box-5:hover {
+    box-shadow: 0px 12px 36px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box-6 {
+    text-align: center;
+    background-color: white;
+    width: 31.333%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+.box-6-img {
+    padding-top: 44px;
+}
+
+.box-6:hover {
+    box-shadow: 0px 12px 36px 0px rgba(0,0,0,0.06);
 }
 
 .works{
     width: 80%;
     margin: auto;
+    padding-bottom: 50px;
 }
 .why-vivasoft-row-2 {
     display: block;
     width: 80%;
     margin: auto;
-}
-
-.top-boxes {
-    display: flex;
+    margin-top: 40px;
 }
 
 .bottom-boxes {
     display: flex;
+    margin-top: 40px;
 }
 
-.works-top-left {
+.works-top-left, .top-boxes {
     display: flex;
 }
 
-
-.works-top-right {
+.works-top-right{
     float: right;
+}
+
+.work-body {
+    padding-bottom: 40px;
+}
+
+.work-portfolio {
+    margin-top: 40px;
 }
 
 .work-portfolio-top {
     display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .work-portfolio-bottom {
     display: flex;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .box-content-text {
     color : rgba(0,21,106,0.5); 
     font-size: larger;
     margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .porfolio-box-1 {
@@ -194,12 +274,73 @@ span {
     background-repeat: no-repeat;
     border-radius: 20px 20px 20px 20px;
     padding-top: 42px;
-    padding-bottom: 42px;    
+    padding-bottom: 42px;
+    margin-right: 3%;  
 }
 
 .porfolio-box-1:hover {
-        background-size: 60%;
+        background-size: 55%;
         transition: 0.5s;
+}
+
+
+.porfolio-box-2 {
+    width: 38.2%;
+    background-image: url(./img/Group-2.png);
+    background-position: bottom right;
+    background-color: #eff0f7;
+    background-size: 260px;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 42px;
+    padding-bottom: 42px;  
+}
+
+.porfolio-box-2:hover {
+    background-size: 60%;
+    transition: 0.5s;
+}
+
+.porfolio-box-3 {
+    width: 48.5%;
+    background-image: url(./img/380-1.png) ;
+    background-position: bottom left;
+    background-color: #eff0f7;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 42px;
+    padding-bottom: 42px; 
+    margin-right: 3%;
+}
+
+.MFS {
+    color: #D80E70;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.porfolio-box-3:hover {
+    background-size: 55%;
+    transition: 0.5s;
+}
+
+.porfolio-box-4 {
+    width: 48.5%;
+    background-image: url(./img/Group-379-1.svg) ;
+    background-position: bottom right;
+    background-color: #f6f6f6;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 42px;
+    padding-bottom: 42px; 
+}
+
+.porfolio-box-4:hover {
+    background-size: 55%;
+    transition: 0.5s;
 }
 
 .portfolio-box-content {
@@ -207,12 +348,8 @@ span {
     padding: 52px 44px 52px 44px;
 }
 
-.porfolio-box-2 {
-    width: 38.2%;
-}
-.porfolio-box-3 {
-    width: 38.2%;
-}
-.porfolio-box-4 {
-    width: 58.8%;
+.portfolio-box-content-3{
+    float: right;
+    width: 60%;
+    padding: 52px 0px 52px 44px;
 }
